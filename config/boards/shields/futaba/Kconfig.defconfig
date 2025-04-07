@@ -1,16 +1,10 @@
-if SHIELD_FUTABA_LEFT
+if SHIELD_FUTABA
 
 config ZMK_KEYBOARD_NAME
-    default "Futaba Keyboard"
+    default "Futaba"
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_FUTABA_LEFT || SHIELD_FUTABA_RIGHT
-
+# 分割キーボードの設定を無効化
 config ZMK_SPLIT
-    default y
+    default n
 
 endif
