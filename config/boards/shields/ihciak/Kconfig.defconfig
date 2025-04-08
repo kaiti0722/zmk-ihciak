@@ -1,0 +1,15 @@
+# Copyright (c) 2025 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_IHCIAK
+
+config ZMK_KEYBOARD_NAME
+    default "IHCIAK"
+
+config PMW3360
+    default y
+
+config ZMK_MOUSE
+    default y
+
+endif

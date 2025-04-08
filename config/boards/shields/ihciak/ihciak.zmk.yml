@@ -1,0 +1,9 @@
+file_format: "1"
+id: ihciak
+name: IHCIAK
+type: shield
+url: https://github.com/yourusername/zmk-ihciak
+requires: [seeeduino_xiao_ble]
+features:
+  - mouse
+  - trackball
